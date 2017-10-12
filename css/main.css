@@ -3,6 +3,7 @@
 body {
   color: #333;
   background-color: #fefefe;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 540px) {
@@ -12,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -39,7 +40,7 @@ h1 small {
 
 p {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.5em;
+  line-height: 1.75em;
 }
 
 p.img-caption {
@@ -50,7 +51,7 @@ p.img-caption {
 
 @media screen and (min-width: 540px) {
   p.img-caption {
-    max-width: 62%;
+    max-width: 65%;
   }
 
   .text-center {
